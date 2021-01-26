@@ -2,7 +2,7 @@ package com.epam.prejap.ess.helpers.arraysprintsortsearch;
 
 import java.util.Arrays;
 
-public class Helper {
+class ArrayPrintSortSearch {
 //        How to search and sort and print an array,
 
     public static void main(String[] args) {
