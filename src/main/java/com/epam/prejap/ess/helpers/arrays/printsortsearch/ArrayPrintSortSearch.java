@@ -1,7 +1,5 @@
 package com.epam.prejap.ess.helpers.arrays.printsortsearch;
 
-import joptsimple.internal.Strings;
-
 import java.util.Arrays;
 
 class ArrayPrintSortSearch {
@@ -25,7 +23,7 @@ class ArrayPrintSortSearch {
         Arrays.sort(ints);
         Arrays.sort(ultimateQuestion);
         //printing
-        System.out.println("Values in the ultimate question after sort: " + Arrays.toString(ultimateQuestion));
+        System.out.println("Values in the ultimate question after sort`: " + Arrays.toString(ultimateQuestion));
 
         //searching
         System.out.println("Objects can be searched through using comparator in binarySearch,e.g. \"man\" in the ultimate question: "
