@@ -6,8 +6,8 @@
 
     <groupId>com.epam.prejap.ess</groupId>
     <artifactId>helpers</artifactId>
-    <version>0.9</version>
-    <name>Java Essentail Classes :: Helpers</name>
+    <version>0.10</version>
+    <name>Java Essential Classes :: Helpers</name>
     <description>Solutions for the task about helpers</description>
     <url>https://careers.epam-poland.pl/training/juniors-java-online-program</url>
 
@@ -113,7 +113,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${version.plugin.maven.surefire}</version>
                 <configuration>
-                    <argLine>--enable-preview -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC -Dtestng.dtd.http=true -Xmx256m</argLine>
+                    <argLine>--enable-preview -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC -Dtestng.dtd.http=true
+                        -Xmx256m
+                    </argLine>
                 </configuration>
             </plugin>
             <plugin>
